@@ -1,7 +1,14 @@
-body {
-    background-color: black;
-    color: white;
+@font-face {
+    font-family: Super Pixel;
+    src: url(../media/fonts/SuperPixel-m2L8j.ttf);
 }
+
+body {
+    background-image: url("../media/Angel\ bath.png");
+    color: white;
+    font-family: Super Pixel;
+}
+
 
 a:link, a:visited {
     color: white;
