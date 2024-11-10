@@ -18,3 +18,22 @@ a:link, a:visited {
 ul {
     list-style-type: none;
 }
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.gif-container img {
+    width: 600px;
+    height: auto
+}
+
+@media (max-width: 600px) {
+    .gif-container {
+        flex-direction: column
+    }
+}
