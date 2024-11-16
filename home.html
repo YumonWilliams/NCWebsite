@@ -4,38 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
+    <title>NEOCOSMA - Home</title>
 </head>
 <body>
-    <a href="./index.html">back</a>
+  
+        <a href="./index.html">
+            <button>
+                <img src="./media/icons/windows-0.png">
+            </button>
+        </a> 
+   
     <!-- <h1>HOME</h1> -->
-    <div class="container">
+    <!-- <div class="container">
         <img src="./media/wormhole.gif" class="background">  
         <img src="./media/fleet.png" class="overlay"> 
+    </div> -->
+    <div class="window-body">
+        <menu role="tablist">
+            <li role="tab" aria-selected="true"><a href="./home.html">HOME</a></li>
+            <li role="tab" class="tab-bg"><a href="./about.html">ABOUT ME</a></li>
+            <li role="tab" class="tab-bg"><a href="./music.html">MUSIC</a></li>
+            <li role="tab" class="tab-bg"><a href="./art.html">VISUAL ART</a></li>
+            <li role="tab" class="tab-bg"><a href="./coding.html">CODING PROJECTS</a></li>
+            <li role="tab" class="tab-bg"><a href="./blog.html">BLOG</a></li>
+            <li role="tab" class="tab-bg"><a href="./contact.html">CONTACT ME</a></li>
+        </menu>
+        <div class="window" role="tabpane1">
+            <div class="window-body">
+                <div class="window" style="width: 300px">
+                    <div class="title-bar">
+                      <div class="title-bar-text">HOME</div>
+                      <div class="title-bar-controls">
+                        <button aria-label="Minimize"></button>
+                        <button aria-label="Maximize"></button>
+                        <button aria-label="Close"></button>
+                      </div>
+                    </div>
+                    <div class="window-body">
+                      <p>There's so much room for activities!</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
     </div>
-    <ul>
-        <li>
-            <a href="./home.html">HOME</a>
-        </li>
-        <li>
-            <a href="./about.html">ABOUT</a>
-        </li>
-        <li>
-            <a href="./music.html">MUSIC</a>
-        </li>
-        <li>
-            <a href="./art.html">VISUAL ART</a>
-        </li>
-        <li>
-            <a href="./coding.html">CODING PROJECTS</a>
-        </li>
-        <li>
-            <a href="./blog.html">BLOG</a>
-        </li>
-        <li>
-            <a href="contact.html">CONTACT</a>
-        </li>
-    </ul>
 
     
 </body>

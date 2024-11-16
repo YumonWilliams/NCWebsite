@@ -67,3 +67,7 @@ ul {
     width: 20px;
     height: auto;
 }
+
+.tab-bg {
+    background-color: grey;
+}
