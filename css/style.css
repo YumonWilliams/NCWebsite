@@ -72,6 +72,6 @@ ul {
     background-color: grey;
 }
 
-/* .tab-icon-bg {
-    background-color: orange;
-} */
+.tab-icon-bg {
+    padding: 8px;
+}
