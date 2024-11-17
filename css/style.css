@@ -22,24 +22,25 @@ ul {
     list-style-type: none;
 }
 
-.gif-container {
+/* .gif-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 10px;
-}
+} */
 
-.gif-container img {
+/* 
+img {
     width: 600px;
     height: auto
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .gif-container {
         flex-direction: column
     }
-}
+} */
 
 .container {
     position: relative;
@@ -51,8 +52,8 @@ ul {
 .background, .overlay {
     width: 50%;
     height: auto;
-    max-width: 100%
-    max-height: 100%
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .overlay {
@@ -73,5 +74,16 @@ ul {
 }
 
 .tab-icon-bg {
-    padding: 8px;
+    background-color: orange;
+}
+
+.constrained-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+
+ justify-content: flex;
 }
