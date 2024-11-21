@@ -74,8 +74,11 @@ img {
 }
 
 .tab-icon-bg {
-    background-color: orange;
-}
+    padding: 10px;
+    margin: 10px;
+    background-image: url('../media/orange.png') ;
+    font-family: Super Pixel;
+    font-size: 13px;
 
 .constrained-image {
     width: 100%;
