@@ -90,3 +90,12 @@ img {
 
  justify-content: flex;
 }
+
+.image-container {
+    
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+}
